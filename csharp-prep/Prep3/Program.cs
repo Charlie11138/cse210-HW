@@ -11,7 +11,7 @@ class Program
         {
             Console.Write("What is your guess? ");
             string answer2 = Console.ReadLine();
-             int guess = int.Parse(answer2);
+            int guess = int.Parse(answer2);
 
             if (guess > number)
             {
