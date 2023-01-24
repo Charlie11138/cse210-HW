@@ -9,5 +9,19 @@ class Program
         job1._company = "Chick-fil-A";
         job1._startYear = 2011;
         job1._endYear = 2014;
+
+        Job job2 = new Job();
+        job2._jobTitle = "Team Leader";
+        job2._company = "Chick-fil-A";
+        job2._startYear = 2014;
+        job2._endYear = 2017;
+        
+        Resume resume1 = new Resume();
+        resume1._name = "Charlie Mitts";
+        resume1._jobs.Add(job1);
+        resume1._jobs.Add(job2);
+        resume1.Display();
     }
+    
+    
 }
